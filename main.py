@@ -5,9 +5,6 @@ import asyncio
 from dotenv import load_dotenv
 
 
-import nacl
-import ffmpeg
-
 load_dotenv()
 
 bot = commands.Bot(command_prefix="/")
